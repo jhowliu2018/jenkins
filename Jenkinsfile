@@ -7,6 +7,7 @@ pipeline {
                 echo 'feature branch'
             }
         }
+        
         stage('Build') {
             steps {
                 echo 'Building'
