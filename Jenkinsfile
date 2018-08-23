@@ -4,7 +4,7 @@ pipeline {
     stages {
         staget('info') {
             steps {
-                echo 'feature branch'
+                echo 'feature branch testing'
             }
         }
         stage('Build') {
