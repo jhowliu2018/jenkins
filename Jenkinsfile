@@ -4,7 +4,7 @@ pipeline {
     stages {
         staget('info') {
             steps {
-                echo 'master branch'
+                echo 'feature branch'
             }
         }
         stage('Build') {
