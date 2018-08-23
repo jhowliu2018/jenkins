@@ -7,6 +7,7 @@ pipeline {
                 echo 'feature branch testing typo'
             }
         }
+        
         stage('Build') {
             steps {
                 echo 'Building'
