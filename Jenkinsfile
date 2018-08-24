@@ -5,6 +5,7 @@ pipeline {
         stage('info') {
             steps {
                 echo 'dev branch.........'
+                echo 'Jenkins is hard to use'
             }
         }
         
