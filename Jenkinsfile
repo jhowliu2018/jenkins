@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        staget('info') {
+        stage('info') {
             steps {
                 echo 'feature branch testing typo...'
             }
